@@ -74,7 +74,7 @@ const Hero = () => {
                 justifyContent={"center"}
                 pt={3}
               >
-                <StyledButton>
+                <StyledButton onClick={() => console.log ("downLoad")}>
                   <DownloadIcon />
                   <Typography>Download CV</Typography>
                 </StyledButton>
@@ -87,7 +87,7 @@ const Hero = () => {
                 justifyContent={"center"}
                 pt={3}
               >
-                <StyledButton>
+                <StyledButton onClick={() => console.log ("contact")}>            
                   <ContactsIcon />
                   <Typography>Contact me</Typography>
                 </StyledButton>
